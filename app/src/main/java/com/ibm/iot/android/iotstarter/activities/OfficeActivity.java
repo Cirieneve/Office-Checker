@@ -63,7 +63,7 @@ public class OfficeActivity extends Activity {
         // ...
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="https://c16cf5d8-caef-4b56-8e05-61909e37ba9a-bluemix.cloudant.com/present/_all_docs?include_docs=true";
+        String url ="https://<your-account>.cloudant.com/present/_all_docs?include_docs=true";
 
         // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
