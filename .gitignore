@@ -1,0 +1,13 @@
+
+*.iml
+.gradle/
+.idea/
+app/build/
+app/app.iml
+build/generated/
+gradle/
+
+build/intermediates
+local.properties
+gradlew
+gradlew.bat
